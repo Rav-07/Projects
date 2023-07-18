@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Shoes & Clothes</title>
+    <link rel="icon" type="image/x-icon" href="logos/s.png">
+    <style>
+        .p {
+            font-weight: 400;
+            color: rgb(33, 42, 47);
+            line-height: 1.5;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            margin: 0px 0px 18px;
+            padding: 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        h4 {
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+        }
+
+        li {
+            float: left;
+
+        }
+
+        li:hover {
+            text-decoration: underline;
+            text-decoration-color: black;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+
+        }
+
+        .he {
+            position: relative;
+            top: 0%;
+            background-color: #23b2c8;
+            color: white;
+            text-align: center;
+            padding: 0.3%;
+        }
+
+        .fixed {
+            position: fixed;
+            width: 100%;
+            top: 10;
+            left: 0;
+        }
+
+        .container1 {
+            position: inherit;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            border: none;
+            font-size: 16px;
+            padding: 2%;
+            padding-left: 6%;
+            padding-right: 6%;
+            margin: 2%;
+            margin-top: 30%;
+        }
+
+        .btn:hover {
+            color: white;
+            background-color: black;
+            text-decoration: underline;
+        }
+
+        .of {
+            text-align: center;
+            float: inherit;
+        }
+
+        .of1 {
+            padding-left: 10%;
+            padding-right: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            border: none;
+            font-size: large;
+
+        }
+
+        .of1:hover {
+            text-decoration: underline;
+        }
+
+        .op {
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+        .op1 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(33, 42, 47);
+            border: 2px solid rgb(33, 42, 47);
+            color: white;
+            font-size: 16px;
+            padding: 2%;
+            padding-left: 16%;
+            padding-right: 16%;
+            margin: 2%;
+
+        }
+
+        .op1:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-radius: 1%;
+        }
+
+        .btn1 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(33, 42, 47);
+            border: 2px solid rgb(33, 42, 47);
+            font-size: 16px;
+            padding: 2%;
+            padding-left: 6%;
+            padding-right: 6%;
+            margin: 2%;
+
+            color: white;
+        }
+
+        .btn1:hover {
+            color: rgb(34, 26, 26);
+            background-color: rgb(255, 255, 255);
+            border-radius: 1%;
+        }
+
+        .Footer {
+            background-color: #212a2f;
+            padding: 72px 0;
+            position: relative;
+            z-index: 51;
+            width: 100%;
+        }
+
+        .fl1 {
+            background-color: #212a2f;
+            margin-bottom: 10px;
+            float: none;
+            list-style-type: none;
+            position: relative;
+            text-align: left;
+            color: aliceblue;
+        }
+
+        h3 {
+            color: aliceblue;
+        }
+
+        .Grid {
+            display: flex;
+            flex-flow: row wrap;
+            padding-left: 3%;
+        }
+
+        .g1 {
+            width: 25%;
+        }
+
+        .gridcell {
+            display: flex;
+            flex-flow: row wrap;
+            padding-left: 3%;
+            padding-top: 5%;
+        }
+
+        .gc1 {
+            width: 25%;
+            color: white;
+        }
+
+        .gc2 {
+            width: 50%;
+            color: white;
+        }
+
+        .ul2 {
+            background-color: #212a2f;
+        }
+
+        .li2 {
+            margin-right: 18px;
+        }
+
+        .f2 {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="he">Incoming Bolds, Brights, And Comfy Things. Check Out Our New Arrivals.</div>
+
+    <div class="container">
+        <ul>
+            <li><a href="#Men">MEN</a></li>
+            <li><a href="#Women">WOMEN</a></li>
+            <li><a href="#New_Arrival">NEW ARRIVAL</a></li>
+            <li style="width: 30%; padding-left:10%;">
+                <img src="logos/allbirds.png" style="height:40px;padding-left: 20%;padding-top: 1%;" alt="allbirds">
+            </li>
+            <li><a href="#Sustainability">SUSTAINABILITY</a></li>
+            <li><a href="#Rerun">RERUN</a></li>
+            <li><a href="#Stores">STORES</a></li>
+            <li><img src="logos/avatar.png" style="height:30px;padding:10px;" alt="A"></li>
+            <li><img src="logos/help.png" style="height:30px;padding:10px;" alt="?"></li>
+            <li><img src="logos/shopping-cart.png" style="height:30px;padding:10px;" alt="+"></li>
+        </ul>
+    </div>
+    <div class="container1">
+        <img src="images/1.jpg" width="1340" height="542" alt="cant load">
+        <div class="centered">
+            <h1>Bold Color.Big Comfort</h1>
+            <h4>Supercharge your summer with new limited edition hues.</h4>
+            <button class="btn"><b>Shop Men</b></button>
+            <button class="btn"><b>Shop Women</b></button>
+        </div>
+    </div>
+    <div class="of">
+        <h2>Our Favorites</h2>
+        <button class="of1">FOR RUNNING</button>
+        <button class="of1">FOR RUNNING</button>
+        <button class="of1">FOR RUNNING</button>
+        <hr>
+    </div>
+    <div>
+        <img src="images/3.jpg" width="1340" height="542" alt="cant load">
+    </div>
+    <div class="op">
+        <h2>Summer's Natural Sweetners</h2>
+        <p class="p">Two new styles made with cushiony, sustainable sugarcane. The Sugar Series
+            is ready for the sun, how about you?</p>
+        <button class="op1">SHOP SANDALS</button>
+    </div>
+    <div>
+        <h2 style="padding-left: 6%;">NEW ARRIVAL</h2>
+    </div>
+    <div>
+        <img src="images/4.jpg" width="1340" height="542" alt="cant load">
+    </div>
+    <div class="op">
+        <h2>Let Your Feet Breathe Easy</h2>
+        <p class="p">Shop our cooling Tree material, perfect for rising temperatures.</p>
+        <button class="btn1"><b>Shop Men</b></button>
+        <button class="btn1"><b>Shop Women</b></button>
+    </div>
+    <div>
+        <h2 style="padding-left: 6%;">Shop The Collections</h2>
+    </div>
+    <div>
+        <img src="images/5.jpg" width="1340" height="542" alt="cant load">
+    </div>
+    <div class="op">
+        <h2>Reversing Climate Change Through Better Business</h2>
+        <p class="p">Reducing our environmental impact has been a top priority since day one. But now,
+            we are taking things further. Explore our overall sustainability approach, our progress thus far
+            , and our bold list of commitments for 2025</p>
+        <button class="op1">SHOP SANDALS</button>
+    </div>
+    <div>
+        <h2 style="padding-left: 6%;">Stories</h2>
+    </div>
+    <div class="Footer">
+        <div class="Grid">
+            <div class="g1">
+                <h3>HELP</h3>
+                <ul class="fl1">
+                    <li class="fl1">1-888-963-8944</li>
+                    <li class="fl1">1-814-251-9966 (Text)</li>
+                    <li class="fl1">help@allbirds.com</li>
+                    <li class="fl1">Returns/Exchanges</li>
+                    <li class="fl1">FAQ/Contact Us</li>
+                    <li class="fl1">Afterpay</li>
+                </ul>
+            </div>
+            <div class="g1">
+                <h3>SHOP</h3>
+                <ul class="fl1">
+                    <li class="fl1">Men's Shoes</li>
+                    <li class="fl1">Women's Shoes</li>
+                    <li class="fl1">Men's Apparel</li>
+                    <li class="fl1">Women's Apparel</li>
+                    <li class="fl1">Socks</li>
+                    <li class="fl1">Gift Cards</li>
+                    <li class="fl1">Refer a Friend</li>
+                    <li class="fl1">Download the Allbirds App</li>
+                </ul>
+            </div>
+            <div class="g1">
+                <h3>COMPANY</h3>
+                <ul class="fl1">
+                    <li class="fl1">Our Stores</li>
+                    <li class="fl1">Our Story</li>
+                    <li class="fl1">Our Materials</li>
+                    <li class="fl1">Sustainability</li>
+                    <li class="fl1">Investors</li>
+                    <li class="fl1">Partnerships</li>
+                    <li class="fl1">Product Testing</li>
+                    <li class="fl1">Affiliates</li>
+                    <li class="fl1">Bulk Orders</li>
+                    <li class="fl1">Careers</li>
+                    <li class="fl1">Press</li>
+                    <li class="fl1">California Transparency Act</li>
+                    <li class="fl1">Community Offers</li>
+                </ul>
+            </div>
+        </div>
+        <div class="gridcell">
+            <div class="gc1">
+                <h3>FOLLOW THE FLOCK</h3>
+                <p>Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute
+                    sheep, too. #weareallbirds</p>
+                <ul class="ul2">
+                    <li class="li2"><img src="logos/insta.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/twt.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/fb.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/pint.png" alt="icon"></li>
+                </ul>
+            </div>
+            <div class="gc1">
+                <img src="logos/certified.png" alt="ic" style="padding-left: 30%;">
+            </div>
+            <div class="gc2">
+                <ul class="ul2">
+                    <li class="li2"><img src="logos/f1.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f2.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f3.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f4.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f5.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f6.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f7.png" alt="icon"></li>
+                    <li class="li2"><img src="logos/f8.png" alt="icon" height="24"></li>
+                    <li class="li2"><img src="logos/f9.png" alt="icon" height="24"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="f2">
+            <p>"© 2022 Allbirds, Inc. All Rights Reserved."
+                <a>Terms</a>
+                ","
+                <a>Privacy</a>
+                "&"
+                <a>Accessibility</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
