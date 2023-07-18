@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjabi University, Patiala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7fe308c94.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+
+</head>
+
+<body>
+    <section class="header">
+
+        <nav class="nav-links">
+            <a href="index.html"><img src="img/logo.png" alt="#"></a>
+            <ul id="sidemenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <h1>Our Courses<h1>
+    </section>
+    <!-- --------------courses------------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Several new courses introduced keeping in mind best career options in changing time </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>ENGINEERING COURSES </h3>
+                <p>B.Tech. Course: CSE/ Civil/ ECE/ ECM/ ME , M.Tech. , M.Tech. Artificial Intelligence & Data Science
+                    and many other courses </p>
+            </div>
+            <div class="course-col">
+                <h3>LAW COURSES</h3>
+                <p>LL.M. (2 Years Morning & One Year Morning/Second Shift) <br>
+                    LL.B. (3 Years); LL.B. Second Shift (3 Years); B.A. LL.B. (5 Years)</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>M.A. M.Sc. M.PHARMACY <br> MASTER OF PHYSIOTHERAPY MCA <br> M.ED. and other courses are available
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- -----------------------facilities------------- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Highly Educated & Qualified Faculty. Equipped with Best Library in the Region. Fully Wi-Fi Campus. </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.jpg" alt="">
+                <h3>University Library</h3>
+                <p>The University Library, named as Bhai Kahn Singh Nabha Library, is housed in a spacious modern and
+                    Air-Conditioned, Wi-Fi enabled building. The library stocks more than 5.64 lacs volumes and
+                    subscribes to 290 print journals. Latest books are added every year. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/ground.jpg" alt="">
+                <h3>Play Grounds</h3>
+                <p> Air-conditioned Shooting Range (10 Meter),
+                    Standard Boxing Hall,
+                    IAAF Synthetic Athletics Track,
+                    Velodrome (for cycling) with flood lights and beautiful pavilion.
+                    Two standard outdoor concrete Basketball courts.
+                    One Hockey field (grassy).
+                    Three Volleyball courts with enclosure.
+                    Two Football field (grassy).
+                    One open Archery range of 100 Mts.
+                    Indoor Gymnasium Hall</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/hostel.jpg" alt="">
+                <h3>Hostels</h3>
+                <p>There are six residential Hostels for boys and seven residential Hostels for girls. The Hostels have
+                    all modern amenities for comfortable living for 4000 students. All the Hostels have wi-fi facility &
+                    CCTV Camera</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------footer-------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>More than 270 affiliated Colleges, 9 Neighbourhood Campuses, 12 Constituent Colleges & 06 Regional Centres.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/PbiUniPatiala/"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/PbiUniPatiala"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+
+    <!-- -------script for menu------ -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
